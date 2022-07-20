@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Ibarra+Real+Nova:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.scroll::-webkit-scrollbar{
+    width: 12px;
+    border: 1px solid rgb(200,200,200)
+}
+.scroll::-webkit-scrollbar-thumb{
+    background-color: #2E282A;
+}
+
+body{
+    background-color: #FCF5C7;
+}
+
+.img-1{
+    position: absolute;
+    left: 0%;
+    bottom: 5%;
+    width: 25%;
+}
+
+.img-2{
+    position: absolute;
+    right: 0%;
+    top: 15%;
+    width: 25%;
+}
+
+.scroll{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 450px;
+    height: 500px;
+    padding: 15px 2%;
+    overflow-y: scroll;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    background-color: #FEFCEC;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.box{
+    width: 100%;
+    height: 70px;
+    background-color: #2E282A;
+    border-radius: 15px;
+    margin: 30px 0;
+}
+
+h1{
+    font-family: Arial;
+    margin-top: 40px;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #2E282A;
+    font-family: 'Cinzel Decorative', cursive;
+    text-shadow: 2px 2px white;
+    
+}
+
+p{
+    color: #2E282A;
+    font-family: 'Ibarra Real Nova', serif;
+    text-align: justify;
+}
+
+h2{
+    color: #2E282A;
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: underline #2e282a7c 1px;
+}
