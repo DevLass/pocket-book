@@ -82,7 +82,7 @@ h2{
     text-decoration: underline #2e282a7c 1px;
 }
 
-@media only screen and (max-height: 660px) {
+@media only screen and (max-height: 640px) {
     .scroll{
         height: 300px;
     }
