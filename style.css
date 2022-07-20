@@ -39,7 +39,7 @@ body{
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
-    width: 450px;
+    max-width: 450px;
     height: 500px;
     padding: 15px 2%;
     overflow-y: scroll;
@@ -81,3 +81,15 @@ h2{
     font-weight: 700;
     text-decoration: underline #2e282a7c 1px;
 }
+
+@media only screen and (max-height: 660px) {
+    .scroll{
+        height: 300px;
+    }
+  }
+
+  @media only screen and (max-height: 480px) {
+    .scroll{
+        height: 200px;
+    }
+  }
