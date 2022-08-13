@@ -1,3 +1,4 @@
+@ -0,0 +1,83 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Ibarra+Real+Nova:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
@@ -34,22 +35,12 @@ body{
     width: 25%;
 }
 
-.pic{
-    width: 100%;
-    filter: sepia(0.5);
-    border-radius: 10px;
-}
-
-.just{
-    text-align: center;
-}
-
 .scroll{
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
-    max-width: 450px;
+    width: 450px;
     height: 500px;
     padding: 15px 2%;
     overflow-y: scroll;
@@ -84,10 +75,6 @@ p{
     text-align: justify;
 }
 
-.bold-p{
-    font-weight: 700;
-}
-
 h2{
     color: #2E282A;
     font-family: 'Ibarra Real Nova', serif;
@@ -95,22 +82,3 @@ h2{
     font-weight: 700;
     text-decoration: underline #2e282a7c 1px;
 }
-
-@media only screen and (max-height: 640px) {
-    .scroll{
-        height: 60%;
-    }
-  }
-
-  @media only screen and (max-height: 480px) {
-    .scroll{
-        height: 200px;
-        
-    }
-  }
-
-  @media only screen and (max-width: 1080px) {
-    .scroll{
-        width: 90%;
-    }
-  }
