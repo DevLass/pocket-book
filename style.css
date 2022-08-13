@@ -34,6 +34,16 @@ body{
     width: 25%;
 }
 
+.pic{
+    width: 100%;
+    filter: sepia(0.5);
+    border-radius: 10px;
+}
+
+.just{
+    text-align: center;
+}
+
 .scroll{
     position: absolute;
     left: 50%;
@@ -74,6 +84,10 @@ p{
     text-align: justify;
 }
 
+.bold-p{
+    font-weight: 700;
+}
+
 h2{
     color: #2E282A;
     font-family: 'Ibarra Real Nova', serif;
@@ -84,12 +98,19 @@ h2{
 
 @media only screen and (max-height: 640px) {
     .scroll{
-        height: 300px;
+        height: 60%;
     }
   }
 
   @media only screen and (max-height: 480px) {
     .scroll{
         height: 200px;
+        
+    }
+  }
+
+  @media only screen and (max-width: 1080px) {
+    .scroll{
+        width: 90%;
     }
   }
